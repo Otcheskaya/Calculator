@@ -1,0 +1,29 @@
+.calc {
+    padding: 15px;
+    background-color: aqua;
+    width: 500px;
+    
+}
+
+.calc-panel { 
+    gap: 40px ;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.calc-panel button { 
+    background: rgb(216, 79, 175);
+    padding: 20px 40px;
+    color: #fff;
+    gap: 40px ;
+    display: flex;
+}
+
+.calc-screen {
+    width: 100%;
+}
+.calc-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
